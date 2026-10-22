@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1813" />
+      <stop offset="100%" stop-color="#050b08" />
+    </linearGradient>
+    <linearGradient id="emeraldArc" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e676" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" rx="22" fill="#040907" />
+
+  <!-- LEFT PANEL: 3D LAPTOP & POS WORKSTATION SHOWCASE (Image 2 Slide 5) -->
+  <g transform="translate(24, 20)">
+    <rect width="564" height="340" rx="18" fill="url(#cardGrad)" stroke="#10b981" stroke-opacity="0.4" />
+    <text x="26" y="34" fill="#00e676" font-family="Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4">
+      WORKSTATION SHOWCASE // PYTHON 3 &amp; C++17 HYBRID ENGINES
+    </text>
+    <text x="26" y="57" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="17.5" font-weight="800">
+      Start Change in Software, POS &amp; Silicon Systems
+    </text>
+
+    <!-- Stylized Laptop Screen Frame -->
+    <g transform="translate(46, 78)">
+      <rect x="0" y="0" width="472" height="205" rx="12" fill="#040a07" stroke="#10b981" stroke-width="2" />
+      <rect x="0" y="0" width="472" height="24" rx="12" fill="#0c1f18" />
+      <circle cx="16" cy="12" r="4" fill="#ef4444" />
+      <circle cx="28" cy="12" r="4" fill="#f59e0b" />
+      <circle cx="40" cy="12" r="4" fill="#10b981" />
+      <text x="236" y="16" text-anchor="middle" fill="#6ee7b7" font-family="Consolas, monospace" font-size="10">
+        data_engine.py  ⇄  L'ECLERC.cpp  (Zero-Drift Euro POS &amp; Flask API)
+      </text>
+
+      <!-- Code & Telemetry Inside Laptop -->
+      <text x="18" y="48" fill="#00e676" font-family="Consolas, monospace" font-size="11" font-weight="700">
+        # Python 3.12 &amp; C++17 Dual-Implementation Architecture
+      </text>
+      <text x="18" y="68" fill="#d1fae5" font-family="Consolas, monospace" font-size="10.5">
+        def compute_euro_checkout(amount_eur: float, cash_eur: float):
+      </text>
+      <text x="18" y="86" fill="#94b8a8" font-family="Consolas, monospace" font-size="10.5">
+            total_cents = int(round(amount_eur * 100))  # Anti-IEEE-754
+      </text>
+      <text x="18" y="104" fill="#94b8a8" font-family="Consolas, monospace" font-size="10.5">
+            denoms = [5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5, 2, 1]
+      </text>
+      <text x="18" y="122" fill="#34d399" font-family="Consolas, monospace" font-size="10.5">
+            # Greedy Change Dispenser + RTTI Bagging Scale Verification
+      </text>
+
+      <!-- Bottom Status Pill Row Inside Laptop -->
+      <rect x="18" y="142" width="138" height="46" rx="8" fill="#091913" stroke="#00e676" stroke-opacity="0.5" />
+      <text x="28" y="160" fill="#6ee7b7" font-family="Consolas, monospace" font-size="9">PORTFOLIO ENGINE</text>
+      <text x="28" y="177" fill="#f0fdf4" font-family="Consolas, monospace" font-size="11" font-weight="700">Python 3 · Flask</text>
+
+      <rect x="168" y="142" width="138" height="46" rx="8" fill="#091913" stroke="#34d399" stroke-opacity="0.5" />
+      <text x="178" y="160" fill="#6ee7b7" font-family="Consolas, monospace" font-size="9">E.LECLERC TERMINAL</text>
+      <text x="178" y="177" fill="#f0fdf4" font-family="Consolas, monospace" font-size="11" font-weight="700">C++17 · dynamic_cast</text>
+
+      <rect x="318" y="142" width="136" height="46" rx="8" fill="#091913" stroke="#10b981" stroke-opacity="0.5" />
+      <text x="328" y="160" fill="#6ee7b7" font-family="Consolas, monospace" font-size="9">AUTONOMOUS ROBOT</text>
+      <text x="328" y="177" fill="#f0fdf4" font-family="Consolas, monospace" font-size="11" font-weight="700">STM32 + ESP32</text>
+    </g>
+
+    <!-- Laptop Base Pedestal -->
+    <rect x="22" y="283" width="520" height="14" rx="7" fill="#143327" stroke="#00e676" stroke-opacity="0.6" />
+    <rect x="235" y="283" width="94" height="5" rx="2.5" fill="#00e676" />
+  </g>
+
+  <!-- RIGHT PANEL: GHANA ⇄ FRANCE CORRIDOR MAP (Image 2 Slides 12-14) -->
+  <g transform="translate(608, 20)">
+    <rect width="568" height="340" rx="18" fill="url(#cardGrad)" stroke="#10b981" stroke-opacity="0.4" />
+    <text x="26" y="34" fill="#00e676" font-family="Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4">
+      GLOBAL ENGINEERING CORRIDOR // ACCRA &amp; KUMASI 🇬🇭  ⇄  LILLE 🇫🇷
+    </text>
+    <text x="26" y="57" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="17.5" font-weight="800">
+      Dual-Continent Academic &amp; Leadership Footprint
+    </text>
+
+    <!-- Stylized Map Canvas -->
+    <g transform="translate(26, 74)">
+      <rect width="516" height="242" rx="14" fill="#040a07" stroke="#10b981" stroke-opacity="0.3" />
+      <!-- Grid Lines -->
+      <line x1="0" y1="60" x2="516" y2="60" stroke="#10b981" stroke-opacity="0.1" />
+      <line x1="0" y1="120" x2="516" y2="120" stroke="#10b981" stroke-opacity="0.1" />
+      <line x1="0" y1="180" x2="516" y2="180" stroke="#10b981" stroke-opacity="0.1" />
+      <line x1="172" y1="0" x2="172" y2="242" stroke="#10b981" stroke-opacity="0.1" />
+      <line x1="344" y1="0" x2="344" y2="242" stroke="#10b981" stroke-opacity="0.1" />
+
+      <!-- Europe Polygon -->
+      <path d="M 110,25 L 175,18 L 235,28 L 250,62 L 210,92 L 135,88 Z" fill="#0d261d" stroke="#10b981" stroke-width="1.3" />
+      <!-- West Africa Polygon -->
+      <path d="M 85,122 L 195,115 L 245,165 L 220,225 L 145,220 L 90,185 Z" fill="#0d261d" stroke="#10b981" stroke-width="1.3" />
+
+      <!-- Corridor Arcs -->
+      <path d="M 142,188 Q 95,120 172,56" fill="none" stroke="url(#emeraldArc)" stroke-width="2.6" stroke-dasharray="5 4" />
+
+      <!-- Pin 1: Lille -->
+      <circle cx="172" cy="56" r="11" fill="#00e676" fill-opacity="0.25" />
+      <circle cx="172" cy="56" r="5" fill="#00e676" stroke="#ffffff" stroke-width="1.5" />
+
+      <!-- Pin 2: Kumasi -->
+      <circle cx="136" cy="172" r="10" fill="#10b981" fill-opacity="0.25" />
+      <circle cx="136" cy="172" r="4.5" fill="#10b981" stroke="#ffffff" stroke-width="1.5" />
+
+      <!-- Pin 3: Accra -->
+      <circle cx="144" cy="192" r="4" fill="#34d399" />
+
+      <!-- Right-Side Map Legend Cards -->
+      <g transform="translate(268, 18)">
+        <rect width="232" height="62" rx="9" fill="#091712" stroke="#00e676" stroke-opacity="0.5" />
+        <text x="12" y="20" fill="#00e676" font-family="Consolas, monospace" font-size="9.5" font-weight="700">🇫🇷 LILLE, FRANCE (50.63°N, 3.06°E)</text>
+        <text x="12" y="37" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="11.5" font-weight="700">JUNIA ISEN Lille — M1 Eng.</text>
+        <text x="12" y="52" fill="#94b8a8" font-family="Consolas, monospace" font-size="9.5">Microelectronics · GHAFRA Nord</text>
+      </g>
+
+      <g transform="translate(268, 90)">
+        <rect width="232" height="62" rx="9" fill="#091712" stroke="#10b981" stroke-opacity="0.5" />
+        <text x="12" y="20" fill="#34d399" font-family="Consolas, monospace" font-size="9.5" font-weight="700">🇬🇭 KUMASI, GHANA (6.67°N, 1.57°W)</text>
+        <text x="12" y="37" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="11.5" font-weight="700">KNUST — BSc Computer Eng.</text>
+        <text x="12" y="52" fill="#94b8a8" font-family="Consolas, monospace" font-size="9.5">ACES Department President</text>
+      </g>
+
+      <g transform="translate(268, 162)">
+        <rect width="232" height="62" rx="9" fill="#091712" stroke="#34d399" stroke-opacity="0.4" />
+        <text x="12" y="20" fill="#6ee7b7" font-family="Consolas, monospace" font-size="9.5" font-weight="700">🇬🇭 ACCRA, GHANA (5.65°N, 0.19°W)</text>
+        <text x="12" y="37" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="11.5" font-weight="700">PRESEC-Legon (Odadeɛ '22)</text>
+        <text x="12" y="52" fill="#94b8a8" font-family="Consolas, monospace" font-size="9.5">General Science Foundation</text>
+      </g>
+    </g>
+  </g>
+</svg>

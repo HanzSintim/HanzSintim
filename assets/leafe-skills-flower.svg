@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="100%" height="100%">
+  <defs>
+    <linearGradient id="obsidianCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1813" />
+      <stop offset="100%" stop-color="#050b08" />
+    </linearGradient>
+    <radialGradient id="flowerHub" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e676" />
+      <stop offset="100%" stop-color="#059669" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="430" rx="22" fill="#040907" />
+
+  <!-- LEFT PANEL: EXECUTIVE PORTRAIT & LEADERSHIP DOSSIER (Image 2 Slide 7) -->
+  <g transform="translate(24, 22)">
+    <rect width="560" height="386" rx="18" fill="url(#obsidianCard)" stroke="#10b981" stroke-opacity="0.4" />
+    <polygon points="440,0 560,0 560,110" fill="#00e676" fill-opacity="0.16" />
+    <rect x="0" y="381" width="240" height="5" fill="#00e676" />
+
+    <!-- Circular Double-Ring Emerald Portrait Emblem -->
+    <g transform="translate(76, 82)">
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#00e676" stroke-width="3" stroke-dasharray="180 40" />
+      <circle cx="0" cy="0" r="40" fill="#0d261d" stroke="#34d399" stroke-width="1.5" />
+      <text x="0" y="4" text-anchor="middle" fill="#00e676" font-family="Georgia, serif" font-size="22" font-weight="700">HOS</text>
+      <text x="0" y="20" text-anchor="middle" fill="#a7f3d0" font-family="Consolas, monospace" font-size="8" letter-spacing="1.2">ARCHITECT</text>
+    </g>
+
+    <g transform="translate(142, 52)">
+      <text x="0" y="0" fill="#00e676" font-family="Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4">
+        EXECUTIVE &amp; ENGINEERING DOSSIER
+      </text>
+      <text x="0" y="26" fill="#f0fdf4" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="21" font-weight="800">
+        Hanz Ofosuhene-Sintim
+      </text>
+      <text x="0" y="47" fill="#6ee7b7" font-family="Consolas, monospace" font-size="11.5">
+        Python 3 · C++17 · STM32/ESP32 · 3NF SQL
+      </text>
+      <text x="0" y="66" fill="#94b8a8" font-family="-apple-system, sans-serif" font-size="11.5">
+        JUNIA ISEN Lille (M1) 🇫🇷  |  KNUST Comp. Eng (BSc) 🇬🇭
+      </text>
+    </g>
+
+    <!-- 3 Leadership Role Cards -->
+    <g transform="translate(28, 150)">
+      <rect width="504" height="64" rx="10" fill="#091510" stroke="#10b981" stroke-opacity="0.35" />
+      <rect width="4" height="64" rx="2" fill="#00e676" />
+      <text x="18" y="24" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">
+        Department President — ACES KNUST (Kumasi, Ghana)
+      </text>
+      <text x="415" y="23" fill="#00e676" font-family="Consolas, monospace" font-size="10" font-weight="700">2024–2025</text>
+      <text x="18" y="45" fill="#94b8a8" font-family="-apple-system, sans-serif" font-size="11">
+        Led 800+ Computer Engineering students, ACES Tech Week, Codefest &amp; software repos.
+      </text>
+    </g>
+
+    <g transform="translate(28, 224)">
+      <rect width="504" height="64" rx="10" fill="#091510" stroke="#10b981" stroke-opacity="0.35" />
+      <rect width="4" height="64" rx="2" fill="#34d399" />
+      <text x="18" y="24" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">
+        Strategic Planning &amp; Organizing Lead — GHAFRA Nord (Lille, France)
+      </text>
+      <text x="415" y="23" fill="#34d399" font-family="Consolas, monospace" font-size="10" font-weight="700">2025–Pres.</text>
+      <text x="18" y="45" fill="#94b8a8" font-family="-apple-system, sans-serif" font-size="11">
+        Architects operational roadmaps, scholar integration &amp; Franco-Ghanaian networks.
+      </text>
+    </g>
+
+    <g transform="translate(28, 298)">
+      <rect width="504" height="64" rx="10" fill="#091510" stroke="#10b981" stroke-opacity="0.35" />
+      <rect width="4" height="64" rx="2" fill="#10b981" />
+      <text x="18" y="24" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">
+        Co-Lead, Commercial &amp; Hardware Operations — H &amp; D'S HUB
+      </text>
+      <text x="415" y="23" fill="#6ee7b7" font-family="Consolas, monospace" font-size="10" font-weight="700">2023–Pres.</text>
+      <text x="18" y="45" fill="#94b8a8" font-family="-apple-system, sans-serif" font-size="11">
+        Hardware procurement, pre-shipment diagnostics, import logistics &amp; unit economics.
+      </text>
+    </g>
+  </g>
+
+  <!-- RIGHT PANEL: 6-PETAL FLOWER & RADIAL COMPETENCY INFOGRAPHIC (Image 2 Slide 8) -->
+  <g transform="translate(608, 22)">
+    <rect width="568" height="386" rx="18" fill="url(#obsidianCard)" stroke="#10b981" stroke-opacity="0.4" />
+    <polygon points="455,0 568,0 568,110" fill="#10b981" fill-opacity="0.16" />
+
+    <text x="28" y="36" fill="#00e676" font-family="Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4">
+      LEAFE RADIAL FLOWER INFOGRAPHIC // 92.8% COMPOSITE SCORE
+    </text>
+    <text x="28" y="60" fill="#f0fdf4" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="800">
+      6-Petal Subject &amp; Architecture Proficiency Matrix
+    </text>
+
+    <!-- 6-Petal Flower Diagram on Left Half of Right Card -->
+    <g transform="translate(155, 225)">
+      <circle cx="0" cy="0" r="108" fill="none" stroke="#10b981" stroke-opacity="0.25" stroke-dasharray="5 4" />
+      <circle cx="0" cy="0" r="76" fill="none" stroke="#34d399" stroke-opacity="0.35" />
+
+      <!-- Petal 1: Top (Python 95%) -->
+      <g transform="translate(0, -88)">
+        <circle cx="0" cy="0" r="30" fill="#0b241c" stroke="#00e676" stroke-width="2.5" />
+        <text x="0" y="-3" text-anchor="middle" fill="#00e676" font-family="Consolas, monospace" font-size="10.5" font-weight="700">PYTHON</text>
+        <text x="0" y="11" text-anchor="middle" fill="#f0fdf4" font-family="Consolas, monospace" font-size="10">95%</text>
+      </g>
+      <!-- Petal 2: Top-Right (C++17 94%) -->
+      <g transform="translate(78, -44)">
+        <circle cx="0" cy="0" r="30" fill="#0b241c" stroke="#34d399" stroke-width="2.5" />
+        <text x="0" y="-3" text-anchor="middle" fill="#34d399" font-family="Consolas, monospace" font-size="10.5" font-weight="700">C++17</text>
+        <text x="0" y="11" text-anchor="middle" fill="#f0fdf4" font-family="Consolas, monospace" font-size="10">94%</text>
+      </g>
+      <!-- Petal 3: Bottom-Right (MCU 91%) -->
+      <g transform="translate(78, 44)">
+        <circle cx="0" cy="0" r="30" fill="#0b241c" stroke="#10b981" stroke-width="2.5" />
+        <text x="0" y="-3" text-anchor="middle" fill="#10b981" font-family="Consolas, monospace" font-size="10.5" font-weight="700">STM32</text>
+        <text x="0" y="11" text-anchor="middle" fill="#f0fdf4" font-family="Consolas, monospace" font-size="10">91%</text>
+      </g>
+      <!-- Petal 4: Bottom (3NF SQL 92%) -->
+      <g transform="translate(0, 88)">
+        <circle cx="0" cy="0" r="30" fill="#0b241c" stroke="#6ee7b7" stroke-width="2.5" />
+        <text x="0" y="-3" text-anchor="middle" fill="#6ee7b7" font-family="Consolas, monospace" font-size="10.5" font-weight="700">3NF SQL</text>
+        <text x="0" y="11" text-anchor="middle" fill="#f0fdf4" font-family="Consolas, monospace" font-size="10">92%</text>
+      </g>
+      <!-- Petal 5: Bottom-Left (PCB 89%) -->
+      <g transform="translate(-78, 44)">
+        <circle cx="0" cy="0" r="30" fill="#0b241c" stroke="#14b8a6" stroke-width="2.5" />
+        <text x="0" y="-3" text-anchor="middle" fill="#14b8a6" font-family="Consolas, monospace" font-size="10.5" font-weight="700">PCB/IC</text>
+        <text x="0" y="11" text-anchor="middle" fill="#f0fdf4" font-family="Consolas, monospace" font-size="10">89%</text>
+      </g>
+      <!-- Petal 6: Top-Left (Leadership 96%) -->
+      <g transform="translate(-78, -44)">
+        <circle cx="0" cy="0" r="30" fill="#0b241c" stroke="#a7f3d0" stroke-width="2.5" />
+        <text x="0" y="-3" text-anchor="middle" fill="#a7f3d0" font-family="Consolas, monospace" font-size="10.5" font-weight="700">LEAD</text>
+        <text x="0" y="11" text-anchor="middle" fill="#f0fdf4" font-family="Consolas, monospace" font-size="10">96%</text>
+      </g>
+
+      <!-- Center Hub -->
+      <circle cx="0" cy="0" r="36" fill="url(#flowerHub)" stroke="#f0fdf4" stroke-width="2" />
+      <text x="0" y="-2" text-anchor="middle" fill="#03150c" font-family="Consolas, monospace" font-size="11" font-weight="800">CORE</text>
+      <text x="0" y="12" text-anchor="middle" fill="#03150c" font-family="Consolas, monospace" font-size="9" font-weight="700">92.8%</text>
+    </g>
+
+    <!-- Quantitative Progress Bars on Right Half of Right Card -->
+    <g transform="translate(300, 94)">
+      <!-- Bar 1 -->
+      <text x="0" y="14" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">01. Python 3, Flask &amp; Data APIs</text>
+      <text x="240" y="14" text-anchor="end" fill="#00e676" font-family="Consolas, monospace" font-size="11.5" font-weight="700">95%</text>
+      <rect x="0" y="21" width="240" height="7" rx="3.5" fill="#091510" />
+      <rect x="0" y="21" width="228" height="7" rx="3.5" fill="#00e676" />
+
+      <!-- Bar 2 -->
+      <text x="0" y="58" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">02. C / C++17 OOP &amp; POS Engines</text>
+      <text x="240" y="58" text-anchor="end" fill="#34d399" font-family="Consolas, monospace" font-size="11.5" font-weight="700">94%</text>
+      <rect x="0" y="65" width="240" height="7" rx="3.5" fill="#091510" />
+      <rect x="0" y="65" width="225" height="7" rx="3.5" fill="#34d399" />
+
+      <!-- Bar 3 -->
+      <text x="0" y="102" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">03. SQL &amp; 3NF Relational Schemas</text>
+      <text x="240" y="102" text-anchor="end" fill="#6ee7b7" font-family="Consolas, monospace" font-size="11.5" font-weight="700">92%</text>
+      <rect x="0" y="109" width="240" height="7" rx="3.5" fill="#091510" />
+      <rect x="0" y="109" width="221" height="7" rx="3.5" fill="#6ee7b7" />
+
+      <!-- Bar 4 -->
+      <text x="0" y="146" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">04. STM32, ESP32 &amp; Embedded C</text>
+      <text x="240" y="146" text-anchor="end" fill="#10b981" font-family="Consolas, monospace" font-size="11.5" font-weight="700">91%</text>
+      <rect x="0" y="153" width="240" height="7" rx="3.5" fill="#091510" />
+      <rect x="0" y="153" width="218" height="7" rx="3.5" fill="#10b981" />
+
+      <!-- Bar 5 -->
+      <text x="0" y="190" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">05. KiCad PCB, Cadence &amp; ToF</text>
+      <text x="240" y="190" text-anchor="end" fill="#14b8a6" font-family="Consolas, monospace" font-size="11.5" font-weight="700">89%</text>
+      <rect x="0" y="197" width="240" height="7" rx="3.5" fill="#091510" />
+      <rect x="0" y="197" width="214" height="7" rx="3.5" fill="#14b8a6" />
+
+      <!-- Bar 6 -->
+      <text x="0" y="234" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">06. Executive &amp; R&amp;D Leadership</text>
+      <text x="240" y="234" text-anchor="end" fill="#a7f3d0" font-family="Consolas, monospace" font-size="11.5" font-weight="700">96%</text>
+      <rect x="0" y="241" width="240" height="7" rx="3.5" fill="#091510" />
+      <rect x="0" y="241" width="230" height="7" rx="3.5" fill="#a7f3d0" />
+    </g>
+  </g>
+</svg>
