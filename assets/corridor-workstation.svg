@@ -1,133 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="100%" height="100%">
   <defs>
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b1813" />
-      <stop offset="100%" stop-color="#050b08" />
+    <linearGradient id="bentoSurface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#080c16" />
     </linearGradient>
-    <linearGradient id="emeraldArc" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00e676" />
-      <stop offset="100%" stop-color="#34d399" />
+    <linearGradient id="flightStroke" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#6366f1" />
     </linearGradient>
+    <style>
+      .radar-pulse {
+        animation: radarPing 2.4s ease-out infinite;
+      }
+      @keyframes radarPing {
+        0% { r: 6px; opacity: 0.85; }
+        100% { r: 20px; opacity: 0; }
+      }
+    </style>
   </defs>
 
-  <rect width="1200" height="380" rx="22" fill="#040907" />
+  <rect width="1200" height="370" rx="24" fill="#060810" stroke="#1e293b" stroke-width="2" />
 
-  <!-- LEFT PANEL: 3D LAPTOP & POS WORKSTATION SHOWCASE (Image 2 Slide 5) -->
+  <!-- LEFT BENTO CARD: 3D WORKSTATION & PYTHON / C++17 DUAL ENGINE -->
   <g transform="translate(24, 20)">
-    <rect width="564" height="340" rx="18" fill="url(#cardGrad)" stroke="#10b981" stroke-opacity="0.4" />
-    <text x="26" y="34" fill="#00e676" font-family="Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4">
-      WORKSTATION SHOWCASE // PYTHON 3 &amp; C++17 HYBRID ENGINES
+    <rect width="564" height="330" rx="20" fill="url(#bentoSurface)" stroke="#334155" stroke-opacity="0.7" />
+    <text x="26" y="34" fill="#818cf8" font-family="Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4">
+      3D SYSTEMS WORKBENCH // PYTHON 3.12 &amp; C++17 DUAL ARCHITECTURE
     </text>
-    <text x="26" y="57" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="17.5" font-weight="800">
-      Start Change in Software, POS &amp; Silicon Systems
+    <text x="26" y="58" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="18" font-weight="800">
+      Live Code &amp; Algorithmic Telemetry Workstation
     </text>
 
-    <!-- Stylized Laptop Screen Frame -->
-    <g transform="translate(46, 78)">
-      <rect x="0" y="0" width="472" height="205" rx="12" fill="#040a07" stroke="#10b981" stroke-width="2" />
-      <rect x="0" y="0" width="472" height="24" rx="12" fill="#0c1f18" />
+    <!-- Laptop Monitor Frame -->
+    <g transform="translate(42, 76)">
+      <rect width="480" height="202" rx="14" fill="#050811" stroke="#6366f1" stroke-width="1.8" />
+      <rect width="480" height="24" rx="14" fill="#0f172a" />
       <circle cx="16" cy="12" r="4" fill="#ef4444" />
       <circle cx="28" cy="12" r="4" fill="#f59e0b" />
       <circle cx="40" cy="12" r="4" fill="#10b981" />
-      <text x="236" y="16" text-anchor="middle" fill="#6ee7b7" font-family="Consolas, monospace" font-size="10">
-        data_engine.py  ⇄  L'ECLERC.cpp  (Zero-Drift Euro POS &amp; Flask API)
+      <text x="240" y="16" text-anchor="middle" fill="#93c5fd" font-family="Consolas, monospace" font-size="10">
+        data_engine.py  ⇄  L'ECLERC.cpp  (Zero-Drift Centimes &amp; RTTI Scale)
       </text>
 
-      <!-- Code & Telemetry Inside Laptop -->
-      <text x="18" y="48" fill="#00e676" font-family="Consolas, monospace" font-size="11" font-weight="700">
-        # Python 3.12 &amp; C++17 Dual-Implementation Architecture
+      <text x="18" y="48" fill="#38bdf8" font-family="Consolas, monospace" font-size="11" font-weight="700">
+        # Python 3.12 &amp; C++17 Greedy Euro Change + French TVA (20%)
       </text>
-      <text x="18" y="68" fill="#d1fae5" font-family="Consolas, monospace" font-size="10.5">
-        def compute_euro_checkout(amount_eur: float, cash_eur: float):
+      <text x="18" y="68" fill="#e2e8f0" font-family="Consolas, monospace" font-size="10.5">
+        def compute_euro_checkout_simulation(amount_eur: float, cash_eur: float):
       </text>
-      <text x="18" y="86" fill="#94b8a8" font-family="Consolas, monospace" font-size="10.5">
-            total_cents = int(round(amount_eur * 100))  # Anti-IEEE-754
+      <text x="18" y="86" fill="#94a3b8" font-family="Consolas, monospace" font-size="10.5">
+            total_cents = int(round(amount_eur * 100))  # Anti-IEEE-754 drift
       </text>
-      <text x="18" y="104" fill="#94b8a8" font-family="Consolas, monospace" font-size="10.5">
+      <text x="18" y="104" fill="#94a3b8" font-family="Consolas, monospace" font-size="10.5">
             denoms = [5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5, 2, 1]
       </text>
-      <text x="18" y="122" fill="#34d399" font-family="Consolas, monospace" font-size="10.5">
-            # Greedy Change Dispenser + RTTI Bagging Scale Verification
+      <text x="18" y="122" fill="#fcd34d" font-family="Consolas, monospace" font-size="10.5">
+            # Paired with C++17 dynamic_cast&lt;Physicalproducts*&gt; Load-Cell Scale
       </text>
 
-      <!-- Bottom Status Pill Row Inside Laptop -->
-      <rect x="18" y="142" width="138" height="46" rx="8" fill="#091913" stroke="#00e676" stroke-opacity="0.5" />
-      <text x="28" y="160" fill="#6ee7b7" font-family="Consolas, monospace" font-size="9">PORTFOLIO ENGINE</text>
-      <text x="28" y="177" fill="#f0fdf4" font-family="Consolas, monospace" font-size="11" font-weight="700">Python 3 · Flask</text>
+      <!-- 3 Mini System Pills -->
+      <rect x="18" y="140" width="142" height="46" rx="10" fill="#0d1324" stroke="#6366f1" stroke-opacity="0.55" />
+      <text x="28" y="158" fill="#818cf8" font-family="Consolas, monospace" font-size="9" font-weight="700">01 // PORTFOLIO API</text>
+      <text x="28" y="175" fill="#f8fafc" font-family="Consolas, monospace" font-size="11" font-weight="700">Python 3 · Flask</text>
 
-      <rect x="168" y="142" width="138" height="46" rx="8" fill="#091913" stroke="#34d399" stroke-opacity="0.5" />
-      <text x="178" y="160" fill="#6ee7b7" font-family="Consolas, monospace" font-size="9">E.LECLERC TERMINAL</text>
-      <text x="178" y="177" fill="#f0fdf4" font-family="Consolas, monospace" font-size="11" font-weight="700">C++17 · dynamic_cast</text>
+      <rect x="170" y="140" width="142" height="46" rx="10" fill="#0d1324" stroke="#06b6d4" stroke-opacity="0.55" />
+      <text x="180" y="158" fill="#38bdf8" font-family="Consolas, monospace" font-size="9" font-weight="700">02 // E.LECLERC POS</text>
+      <text x="180" y="175" fill="#f8fafc" font-family="Consolas, monospace" font-size="11" font-weight="700">C++17 · RTTI</text>
 
-      <rect x="318" y="142" width="136" height="46" rx="8" fill="#091913" stroke="#10b981" stroke-opacity="0.5" />
-      <text x="328" y="160" fill="#6ee7b7" font-family="Consolas, monospace" font-size="9">AUTONOMOUS ROBOT</text>
-      <text x="328" y="177" fill="#f0fdf4" font-family="Consolas, monospace" font-size="11" font-weight="700">STM32 + ESP32</text>
+      <rect x="322" y="140" width="140" height="46" rx="10" fill="#0d1324" stroke="#f59e0b" stroke-opacity="0.55" />
+      <text x="332" y="158" fill="#fbbf24" font-family="Consolas, monospace" font-size="9" font-weight="700">03 // URBAN ROBOT</text>
+      <text x="332" y="175" fill="#f8fafc" font-family="Consolas, monospace" font-size="11" font-weight="700">STM32 + ESP32</text>
     </g>
 
-    <!-- Laptop Base Pedestal -->
-    <rect x="22" y="283" width="520" height="14" rx="7" fill="#143327" stroke="#00e676" stroke-opacity="0.6" />
-    <rect x="235" y="283" width="94" height="5" rx="2.5" fill="#00e676" />
+    <rect x="18" y="278" width="528" height="12" rx="6" fill="#1e293b" stroke="#6366f1" stroke-opacity="0.5" />
   </g>
 
-  <!-- RIGHT PANEL: GHANA ⇄ FRANCE CORRIDOR MAP (Image 2 Slides 12-14) -->
+  <!-- RIGHT BENTO CARD: GHANA ⇄ FRANCE TELEMETRY CORRIDOR MAP -->
   <g transform="translate(608, 20)">
-    <rect width="568" height="340" rx="18" fill="url(#cardGrad)" stroke="#10b981" stroke-opacity="0.4" />
-    <text x="26" y="34" fill="#00e676" font-family="Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4">
+    <rect width="568" height="330" rx="20" fill="url(#bentoSurface)" stroke="#334155" stroke-opacity="0.7" />
+    <text x="26" y="34" fill="#38bdf8" font-family="Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4">
       GLOBAL ENGINEERING CORRIDOR // ACCRA &amp; KUMASI 🇬🇭  ⇄  LILLE 🇫🇷
     </text>
-    <text x="26" y="57" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="17.5" font-weight="800">
-      Dual-Continent Academic &amp; Leadership Footprint
+    <text x="26" y="58" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="18" font-weight="800">
+      Academic &amp; R&amp;D Telemetry Map
     </text>
 
-    <!-- Stylized Map Canvas -->
     <g transform="translate(26, 74)">
-      <rect width="516" height="242" rx="14" fill="#040a07" stroke="#10b981" stroke-opacity="0.3" />
-      <!-- Grid Lines -->
-      <line x1="0" y1="60" x2="516" y2="60" stroke="#10b981" stroke-opacity="0.1" />
-      <line x1="0" y1="120" x2="516" y2="120" stroke="#10b981" stroke-opacity="0.1" />
-      <line x1="0" y1="180" x2="516" y2="180" stroke="#10b981" stroke-opacity="0.1" />
-      <line x1="172" y1="0" x2="172" y2="242" stroke="#10b981" stroke-opacity="0.1" />
-      <line x1="344" y1="0" x2="344" y2="242" stroke="#10b981" stroke-opacity="0.1" />
+      <rect width="516" height="232" rx="14" fill="#050811" stroke="#1e293b" />
+      <line x1="0" y1="60" x2="516" y2="60" stroke="#1e293b" stroke-opacity="0.5" />
+      <line x1="0" y1="120" x2="516" y2="120" stroke="#1e293b" stroke-opacity="0.5" />
+      <line x1="0" y1="180" x2="516" y2="180" stroke="#1e293b" stroke-opacity="0.5" />
+      <line x1="172" y1="0" x2="172" y2="232" stroke="#1e293b" stroke-opacity="0.5" />
 
-      <!-- Europe Polygon -->
-      <path d="M 110,25 L 175,18 L 235,28 L 250,62 L 210,92 L 135,88 Z" fill="#0d261d" stroke="#10b981" stroke-width="1.3" />
-      <!-- West Africa Polygon -->
-      <path d="M 85,122 L 195,115 L 245,165 L 220,225 L 145,220 L 90,185 Z" fill="#0d261d" stroke="#10b981" stroke-width="1.3" />
+      <!-- Stylized Europe & West Africa -->
+      <path d="M 105,22 L 175,16 L 235,26 L 248,60 L 208,88 L 130,84 Z" fill="#111a2e" stroke="#6366f1" stroke-width="1.4" />
+      <path d="M 82,118 L 195,112 L 242,158 L 218,218 L 142,214 L 88,180 Z" fill="#111a2e" stroke="#06b6d4" stroke-width="1.4" />
 
-      <!-- Corridor Arcs -->
-      <path d="M 142,188 Q 95,120 172,56" fill="none" stroke="url(#emeraldArc)" stroke-width="2.6" stroke-dasharray="5 4" />
+      <!-- Corridor Arc -->
+      <path d="M 140,182 Q 92,115 170,54" fill="none" stroke="url(#flightStroke)" stroke-width="2.8" stroke-dasharray="6 4" />
 
-      <!-- Pin 1: Lille -->
-      <circle cx="172" cy="56" r="11" fill="#00e676" fill-opacity="0.25" />
-      <circle cx="172" cy="56" r="5" fill="#00e676" stroke="#ffffff" stroke-width="1.5" />
+      <!-- Animated Radar Pins -->
+      <circle cx="170" cy="54" r="6" fill="#6366f1" class="radar-pulse" />
+      <circle cx="170" cy="54" r="5.5" fill="#6366f1" stroke="#ffffff" stroke-width="1.5" />
 
-      <!-- Pin 2: Kumasi -->
-      <circle cx="136" cy="172" r="10" fill="#10b981" fill-opacity="0.25" />
-      <circle cx="136" cy="172" r="4.5" fill="#10b981" stroke="#ffffff" stroke-width="1.5" />
+      <circle cx="134" cy="166" r="6" fill="#06b6d4" class="radar-pulse" />
+      <circle cx="134" cy="166" r="5" fill="#06b6d4" stroke="#ffffff" stroke-width="1.5" />
 
-      <!-- Pin 3: Accra -->
-      <circle cx="144" cy="192" r="4" fill="#34d399" />
+      <circle cx="142" cy="186" r="4.5" fill="#f59e0b" stroke="#ffffff" stroke-width="1.2" />
 
-      <!-- Right-Side Map Legend Cards -->
-      <g transform="translate(268, 18)">
-        <rect width="232" height="62" rx="9" fill="#091712" stroke="#00e676" stroke-opacity="0.5" />
-        <text x="12" y="20" fill="#00e676" font-family="Consolas, monospace" font-size="9.5" font-weight="700">🇫🇷 LILLE, FRANCE (50.63°N, 3.06°E)</text>
-        <text x="12" y="37" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="11.5" font-weight="700">JUNIA ISEN Lille — M1 Eng.</text>
-        <text x="12" y="52" fill="#94b8a8" font-family="Consolas, monospace" font-size="9.5">Microelectronics · GHAFRA Nord</text>
+      <!-- 3 Academic Cards on Map Right -->
+      <g transform="translate(266, 14)">
+        <rect width="234" height="60" rx="10" fill="#0b1120" stroke="#6366f1" stroke-opacity="0.55" />
+        <text x="12" y="19" fill="#818cf8" font-family="Consolas, monospace" font-size="9.5" font-weight="700">🇫🇷 LILLE, FRANCE · 50.63°N, 3.06°E</text>
+        <text x="12" y="36" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="11.5" font-weight="700">JUNIA ISEN Lille — M1 Eng.</text>
+        <text x="12" y="51" fill="#94a3b8" font-family="Consolas, monospace" font-size="9.5">Microelectronics · GHAFRA Nord</text>
       </g>
 
-      <g transform="translate(268, 90)">
-        <rect width="232" height="62" rx="9" fill="#091712" stroke="#10b981" stroke-opacity="0.5" />
-        <text x="12" y="20" fill="#34d399" font-family="Consolas, monospace" font-size="9.5" font-weight="700">🇬🇭 KUMASI, GHANA (6.67°N, 1.57°W)</text>
-        <text x="12" y="37" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="11.5" font-weight="700">KNUST — BSc Computer Eng.</text>
-        <text x="12" y="52" fill="#94b8a8" font-family="Consolas, monospace" font-size="9.5">ACES Department President</text>
+      <g transform="translate(266, 84)">
+        <rect width="234" height="60" rx="10" fill="#0b1120" stroke="#06b6d4" stroke-opacity="0.55" />
+        <text x="12" y="19" fill="#38bdf8" font-family="Consolas, monospace" font-size="9.5" font-weight="700">🇬🇭 KUMASI, GHANA · 6.67°N, 1.57°W</text>
+        <text x="12" y="36" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="11.5" font-weight="700">KNUST — BSc Computer Eng.</text>
+        <text x="12" y="51" fill="#94a3b8" font-family="Consolas, monospace" font-size="9.5">ACES Department President</text>
       </g>
 
-      <g transform="translate(268, 162)">
-        <rect width="232" height="62" rx="9" fill="#091712" stroke="#34d399" stroke-opacity="0.4" />
-        <text x="12" y="20" fill="#6ee7b7" font-family="Consolas, monospace" font-size="9.5" font-weight="700">🇬🇭 ACCRA, GHANA (5.65°N, 0.19°W)</text>
-        <text x="12" y="37" fill="#f0fdf4" font-family="-apple-system, sans-serif" font-size="11.5" font-weight="700">PRESEC-Legon (Odadeɛ '22)</text>
-        <text x="12" y="52" fill="#94b8a8" font-family="Consolas, monospace" font-size="9.5">General Science Foundation</text>
+      <g transform="translate(266, 154)">
+        <rect width="234" height="60" rx="10" fill="#0b1120" stroke="#f59e0b" stroke-opacity="0.55" />
+        <text x="12" y="19" fill="#fbbf24" font-family="Consolas, monospace" font-size="9.5" font-weight="700">🇬🇭 ACCRA, GHANA · 5.65°N, 0.19°W</text>
+        <text x="12" y="36" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="11.5" font-weight="700">PRESEC-Legon (Odadeɛ '22)</text>
+        <text x="12" y="51" fill="#94a3b8" font-family="Consolas, monospace" font-size="9.5">General Science Foundation</text>
       </g>
     </g>
   </g>
