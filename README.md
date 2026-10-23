@@ -4,7 +4,7 @@
        SECTION 1: CODECRAFT + AARAV + DIKSHANT ILLUSTRATED HERO STAGE
        ===================================================================== -->
   <a href="https://hanzsintim.github.io/Hanz-Portfolio-webisite/">
-    <img src="./assets/hero-alpine-obsidian.svg" alt="Hi, I'm Hanz — Python 3, C++17 & Embedded Systems Architect" width="100%" />
+    <img src="./assets/hanzcraft-hero-v4.svg" alt="Hi, I'm Hanz — Python 3, C++17 & Embedded Systems Architect" width="100%" />
   </a>
 
   <br /><br />
@@ -24,7 +24,7 @@
        SECTION 2: ABOUT ME + 2x2 GLOWING STATS + 3-COLUMN SKILLS MATRIX
        ===================================================================== -->
   <a href="https://hanzsintim.github.io/Hanz-Portfolio-webisite/#skills">
-    <img src="./assets/leafe-skills-flower.svg" alt="About Me, 2x2 Impact Stats & Technologies I Master 3-Column Progress Matrix" width="100%" />
+    <img src="./assets/hanzcraft-skills-v4.svg" alt="About Me, 2x2 Impact Stats & Technologies I Master 3-Column Progress Matrix" width="100%" />
   </a>
 
 </div>
@@ -34,10 +34,23 @@
 <div align="center">
 
   <!-- =====================================================================
-       SECTION 3: FEATURED PROJECTS VISUAL MOCKUP GALLERY + 5-STEP PROCESS
+       SECTION 3: ALTERNATING JOURNEY TIMELINE + VISUAL PROJECT CARDS
        ===================================================================== -->
   <a href="https://hanzsintim.github.io/Hanz-Portfolio-webisite/#projects">
-    <img src="./assets/corridor-workstation.svg" alt="Featured Projects Visual UI Mockup Cards & 5-Step Engineering Process" width="100%" />
+    <img src="./assets/hanzcraft-journey-projects-v4.svg" alt="Alternating Journey Timeline & Featured Projects Visual Mockup Cards" width="100%" />
+  </a>
+
+</div>
+
+<br />
+
+<div align="center">
+
+  <!-- =====================================================================
+       SECTION 4: 5-STEP ENGINEERING PROCESS & DEDICATED CV DOWNLOAD BANNER
+       ===================================================================== -->
+  <a href="https://hanzsintim.github.io/Hanz-Portfolio-webisite/#resume">
+    <img src="./assets/hanzcraft-resume-process-v4.svg" alt="5-Step Engineering Process & Resume Download Banner" width="100%" />
   </a>
 
 </div>
@@ -48,7 +61,7 @@
 
 | # | System / Repository | Primary Stack & Subject Focus | Architectural Summary |
 | :-: | :--- | :--- | :--- |
-| **01** | **[`Hanz-Portfolio-webisite`](https://github.com/HanzSintim/Hanz-Portfolio-webisite)**<br/>*[▶ Open Interactive Showreel & Sandbox ↗](https://hanzsintim.github.io/Hanz-Portfolio-webisite/)* | **`Python 3.12`** · `Flask WSGI` · `Jinja2` · `REST JSON API` · `ES6` | Full-stack **Python** telemetry & portfolio engine (`data_engine.py`, `app.py`) featuring a 3-in-1 interactive hardware/POS sandbox, 3D mouse-parallax illustrated hero, dual Dark Neon / Frosted Glass themes, and static GitHub Pages compiler. |
+| **01** | **[`Hanz-Portfolio-webisite`](https://github.com/HanzSintim/Hanz-Portfolio-webisite)**<br/>*[▶ Open Interactive Showreel & Sandbox ↗](https://hanzsintim.github.io/Hanz-Portfolio-webisite/)* | **`Python 3.12`** · `Flask WSGI` · `Jinja2` · `REST JSON API` · `ES6` | Full-stack **Python** telemetry & portfolio engine (`data_engine.py`, `app.py`) featuring a 3-in-1 interactive hardware/POS sandbox, 3D mouse-parallax illustrated hero, dual Dark Neon / Frosted Glass themes, downloadable EN/FR CVs, and static GitHub Pages compiler. |
 | **02** | **[`LECLERC-Self-Checkout`](https://github.com/HanzSintim/LECLERC-Self-Checkout)**<br/>*Caisse Libre-Service POS* | **`C++17`** · `OOP Polymorphism` · `RTTI dynamic_cast` · `STL` | French **E.Leclerc Self-Checkout Terminal** with optical/load-cell bagging scale verification (`Physicalproducts` vs `Digitalproduct`), 12-denomination Euro cash validator + **Greedy Change-Making Algorithm**, French PSD2 NFC (`<= 50€`) / EMV Chip+PIN, and TVA 20% receipt engine. |
 | **03** | **Autonomous Street-Cleaning Robot**<br/>*JUNIA ISEN Lille M1 R&D* | **`Embedded C`** · `STM32` · `ESP32` · `UART AI Vision` · `ToF` | 7-member M1 R&D architecture partitioning hard real-time **STM32** PWM H-bridge traction & brush control from **ESP32** wireless telemetry, UART AI debris vision, and ultrasonic time-of-flight emergency braking. |
 | **04** | **[`CoE_group22`](https://github.com/HanzSintim/CoE_group22)**<br/>*Smart Logistics & 3NF Schema* | **`SQL`** · **`Python`** · `3NF Normalization` · `ER Modeling` | End-to-end relational database schema resolving complex `M:N` cardinalities via composite-key associative junction tables and strict **Third Normal Form (3NF)** normalization. |
