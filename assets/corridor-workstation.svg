@@ -1,135 +1,174 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 610" width="100%" height="100%" role="img" aria-label="Featured Projects Visual Mockup Cards & 5-Step Engineering Process">
   <defs>
-    <linearGradient id="bentoSurface" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a" />
-      <stop offset="100%" stop-color="#080c16" />
+    <linearGradient id="bgProj" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="100%" stop-color="#0b1022" />
     </linearGradient>
-    <linearGradient id="flightStroke" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f59e0b" />
-      <stop offset="50%" stop-color="#06b6d4" />
-      <stop offset="100%" stop-color="#6366f1" />
+    <linearGradient id="cardMock1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#06b6d4" />
     </linearGradient>
     <style>
-      .radar-pulse {
-        animation: radarPing 2.4s ease-out infinite;
-      }
-      @keyframes radarPing {
-        0% { r: 6px; opacity: 0.85; }
-        100% { r: 20px; opacity: 0; }
-      }
+      .font-sans { font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
     </style>
   </defs>
 
-  <rect width="1200" height="370" rx="24" fill="#060810" stroke="#1e293b" stroke-width="2" />
+  <rect width="1200" height="610" rx="26" fill="url(#bgProj)" stroke="#312e81" stroke-width="2" />
 
-  <!-- LEFT BENTO CARD: 3D WORKSTATION & PYTHON / C++17 DUAL ENGINE -->
-  <g transform="translate(24, 20)">
-    <rect width="564" height="330" rx="20" fill="url(#bentoSurface)" stroke="#334155" stroke-opacity="0.7" />
-    <text x="26" y="34" fill="#818cf8" font-family="Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4">
-      3D SYSTEMS WORKBENCH // PYTHON 3.12 &amp; C++17 DUAL ARCHITECTURE
-    </text>
-    <text x="26" y="58" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="18" font-weight="800">
-      Live Code &amp; Algorithmic Telemetry Workstation
-    </text>
+  <!-- ====================================================================
+       TOP HALF: "FEATURED PROJECTS — SOME OF MY RECENT WORK" (3 VISUAL CARDS)
+       (Directly modeled on Pinterest Image 1 & 2 Visual UI Mockup Cards)
+       ==================================================================== -->
+  <text x="600" y="42" text-anchor="middle" fill="#38bdf8" class="font-mono" font-weight="800" font-size="11" letter-spacing="1.8">✦ FEATURED PROJECTS</text>
+  <text x="600" y="72" text-anchor="middle" fill="#f8fafc" class="font-sans" font-weight="900" font-size="26">Some of My Recent Work</text>
 
-    <!-- Laptop Monitor Frame -->
-    <g transform="translate(42, 76)">
-      <rect width="480" height="202" rx="14" fill="#050811" stroke="#6366f1" stroke-width="1.8" />
-      <rect width="480" height="24" rx="14" fill="#0f172a" />
-      <circle cx="16" cy="12" r="4" fill="#ef4444" />
-      <circle cx="28" cy="12" r="4" fill="#f59e0b" />
-      <circle cx="40" cy="12" r="4" fill="#10b981" />
-      <text x="240" y="16" text-anchor="middle" fill="#93c5fd" font-family="Consolas, monospace" font-size="10">
-        data_engine.py  ⇄  L'ECLERC.cpp  (Zero-Drift Centimes &amp; RTTI Scale)
-      </text>
-
-      <text x="18" y="48" fill="#38bdf8" font-family="Consolas, monospace" font-size="11" font-weight="700">
-        # Python 3.12 &amp; C++17 Greedy Euro Change + French TVA (20%)
-      </text>
-      <text x="18" y="68" fill="#e2e8f0" font-family="Consolas, monospace" font-size="10.5">
-        def compute_euro_checkout_simulation(amount_eur: float, cash_eur: float):
-      </text>
-      <text x="18" y="86" fill="#94a3b8" font-family="Consolas, monospace" font-size="10.5">
-            total_cents = int(round(amount_eur * 100))  # Anti-IEEE-754 drift
-      </text>
-      <text x="18" y="104" fill="#94a3b8" font-family="Consolas, monospace" font-size="10.5">
-            denoms = [5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5, 2, 1]
-      </text>
-      <text x="18" y="122" fill="#fcd34d" font-family="Consolas, monospace" font-size="10.5">
-            # Paired with C++17 dynamic_cast&lt;Physicalproducts*&gt; Load-Cell Scale
-      </text>
-
-      <!-- 3 Mini System Pills -->
-      <rect x="18" y="140" width="142" height="46" rx="10" fill="#0d1324" stroke="#6366f1" stroke-opacity="0.55" />
-      <text x="28" y="158" fill="#818cf8" font-family="Consolas, monospace" font-size="9" font-weight="700">01 // PORTFOLIO API</text>
-      <text x="28" y="175" fill="#f8fafc" font-family="Consolas, monospace" font-size="11" font-weight="700">Python 3 · Flask</text>
-
-      <rect x="170" y="140" width="142" height="46" rx="10" fill="#0d1324" stroke="#06b6d4" stroke-opacity="0.55" />
-      <text x="180" y="158" fill="#38bdf8" font-family="Consolas, monospace" font-size="9" font-weight="700">02 // E.LECLERC POS</text>
-      <text x="180" y="175" fill="#f8fafc" font-family="Consolas, monospace" font-size="11" font-weight="700">C++17 · RTTI</text>
-
-      <rect x="322" y="140" width="140" height="46" rx="10" fill="#0d1324" stroke="#f59e0b" stroke-opacity="0.55" />
-      <text x="332" y="158" fill="#fbbf24" font-family="Consolas, monospace" font-size="9" font-weight="700">03 // URBAN ROBOT</text>
-      <text x="332" y="175" fill="#f8fafc" font-family="Consolas, monospace" font-size="11" font-weight="700">STM32 + ESP32</text>
-    </g>
-
-    <rect x="18" y="278" width="528" height="12" rx="6" fill="#1e293b" stroke="#6366f1" stroke-opacity="0.5" />
+  <!-- PROJECT CARD 1: Python 3 & Flask Telemetry Engine -->
+  <g transform="translate(48, 94)">
+    <rect width="352" height="275" rx="20" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1.5" />
+    <!-- Top Mockup Window -->
+    <rect x="12" y="12" width="328" height="128" rx="14" fill="url(#cardMock1)" stroke="#38bdf8" stroke-opacity="0.35" />
+    <circle cx="28" cy="26" r="4" fill="#fb7185" />
+    <circle cx="40" cy="26" r="4" fill="#facc15" />
+    <circle cx="52" cy="26" r="4" fill="#4ade80" />
+    <text x="324" y="29" text-anchor="end" fill="#38bdf8" class="font-mono" font-size="9" font-weight="700">app.py · REST API</text>
+    <rect x="24" y="42" width="142" height="82" rx="8" fill="#070a13" stroke="#38bdf8" stroke-opacity="0.4" />
+    <text x="34" y="60" fill="#a3e635" class="font-mono" font-size="9" font-weight="700">GET /api/v1/profile</text>
+    <rect x="34" y="70" width="90" height="6" rx="3" fill="#38bdf8" />
+    <rect x="34" y="82" width="112" height="6" rx="3" fill="#8b5cf6" />
+    <text x="34" y="110" fill="#94a3b8" class="font-mono" font-size="8">200 OK · Python 3.12</text>
+    <rect x="178" y="42" width="148" height="82" rx="8" fill="#070a13" stroke="#a78bfa" stroke-opacity="0.4" />
+    <path d="M190 106 L214 82 L240 90 L270 58 L312 48" fill="none" stroke="#a3e635" stroke-width="2.8" stroke-linecap="round" />
+    <circle cx="312" cy="48" r="4" fill="#38bdf8" />
+    <!-- Card Body -->
+    <text x="20" y="164" fill="#38bdf8" class="font-mono" font-weight="800" font-size="10">PYTHON 3.12 · FLASK · JINJA2</text>
+    <text x="20" y="186" fill="#f8fafc" class="font-sans" font-weight="800" font-size="16">Python &amp; Flask Portfolio Engine</text>
+    <text x="20" y="208" fill="#94a3b8" class="font-sans" font-size="11.5">Typed Python dataclasses, WSGI REST APIs,</text>
+    <text x="20" y="224" fill="#94a3b8" class="font-sans" font-size="11.5">live POS sandbox &amp; static GitHub Pages compiler.</text>
+    <text x="20" y="255" fill="#a78bfa" class="font-sans" font-weight="800" font-size="12">View Project ↗</text>
   </g>
 
-  <!-- RIGHT BENTO CARD: GHANA ⇄ FRANCE TELEMETRY CORRIDOR MAP -->
-  <g transform="translate(608, 20)">
-    <rect width="568" height="330" rx="20" fill="url(#bentoSurface)" stroke="#334155" stroke-opacity="0.7" />
-    <text x="26" y="34" fill="#38bdf8" font-family="Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4">
-      GLOBAL ENGINEERING CORRIDOR // ACCRA &amp; KUMASI 🇬🇭  ⇄  LILLE 🇫🇷
-    </text>
-    <text x="26" y="58" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="18" font-weight="800">
-      Academic &amp; R&amp;D Telemetry Map
-    </text>
+  <!-- PROJECT CARD 2: E.Leclerc Self-Checkout POS (C++17) -->
+  <g transform="translate(424, 94)">
+    <rect width="352" height="275" rx="20" fill="#0f172a" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1.5" />
+    <!-- Top Mockup Window -->
+    <rect x="12" y="12" width="328" height="128" rx="14" fill="url(#cardMock1)" stroke="#a78bfa" stroke-opacity="0.35" />
+    <circle cx="28" cy="26" r="4" fill="#fb7185" />
+    <circle cx="40" cy="26" r="4" fill="#facc15" />
+    <circle cx="52" cy="26" r="4" fill="#4ade80" />
+    <text x="324" y="29" text-anchor="end" fill="#a78bfa" class="font-mono" font-size="9" font-weight="700">L'ECLERC.cpp · C++17</text>
+    <rect x="24" y="42" width="190" height="82" rx="8" fill="#070a13" stroke="#a78bfa" stroke-opacity="0.4" />
+    <text x="34" y="60" fill="#f8fafc" class="font-mono" font-size="10" font-weight="800">TTC: 47.97€ | TVA: 7.99€</text>
+    <rect x="34" y="68" width="48" height="20" rx="5" fill="#7c3aed" />
+    <text x="58" y="81" text-anchor="middle" fill="#fff" class="font-mono" font-size="8.5" font-weight="700">10€ ×1</text>
+    <rect x="88" y="68" width="44" height="20" rx="5" fill="#059669" />
+    <text x="110" y="81" text-anchor="middle" fill="#fff" class="font-mono" font-size="8.5" font-weight="700">2€ ×1</text>
+    <rect x="138" y="68" width="64" height="20" rx="5" fill="#0284c7" />
+    <text x="170" y="81" text-anchor="middle" fill="#fff" class="font-mono" font-size="8.5" font-weight="700">0.03€ Coins</text>
+    <text x="34" y="110" fill="#a3e635" class="font-mono" font-size="8.5">dynamic_cast&lt;Physical*&gt; OK</text>
+    <rect x="224" y="42" width="102" height="82" rx="8" fill="#070a13" stroke="#a3e635" stroke-opacity="0.4" />
+    <circle cx="275" cy="76" r="21" fill="none" stroke="#a3e635" stroke-width="3" />
+    <text x="275" y="80" text-anchor="middle" fill="#fff" class="font-mono" font-size="9" font-weight="800">2.45kg</text>
+    <text x="275" y="114" text-anchor="middle" fill="#94a3b8" class="font-mono" font-size="7.5">SCALE OK</text>
+    <!-- Card Body -->
+    <text x="20" y="164" fill="#a78bfa" class="font-mono" font-weight="800" font-size="10">C++17 · OOP POLYMORPHISM · RTTI</text>
+    <text x="20" y="186" fill="#f8fafc" class="font-sans" font-weight="800" font-size="16">E.Leclerc Self-Checkout Terminal</text>
+    <text x="20" y="208" fill="#94a3b8" class="font-sans" font-size="11.5">Load-cell bagging scale, 12-denomination greedy</text>
+    <text x="20" y="224" fill="#94a3b8" class="font-sans" font-size="11.5">Euro change dispenser, NFC &lt;= 50€ &amp; TVA 20%.</text>
+    <text x="20" y="255" fill="#38bdf8" class="font-sans" font-weight="800" font-size="12">View Project ↗</text>
+  </g>
 
-    <g transform="translate(26, 74)">
-      <rect width="516" height="232" rx="14" fill="#050811" stroke="#1e293b" />
-      <line x1="0" y1="60" x2="516" y2="60" stroke="#1e293b" stroke-opacity="0.5" />
-      <line x1="0" y1="120" x2="516" y2="120" stroke="#1e293b" stroke-opacity="0.5" />
-      <line x1="0" y1="180" x2="516" y2="180" stroke="#1e293b" stroke-opacity="0.5" />
-      <line x1="172" y1="0" x2="172" y2="232" stroke="#1e293b" stroke-opacity="0.5" />
+  <!-- PROJECT CARD 3: STM32 + ESP32 Autonomous Robot & 3NF SQL -->
+  <g transform="translate(800, 94)">
+    <rect width="352" height="275" rx="20" fill="#0f172a" stroke="#a3e635" stroke-opacity="0.5" stroke-width="1.5" />
+    <!-- Top Mockup Window -->
+    <rect x="12" y="12" width="328" height="128" rx="14" fill="url(#cardMock1)" stroke="#a3e635" stroke-opacity="0.35" />
+    <circle cx="28" cy="26" r="4" fill="#fb7185" />
+    <circle cx="40" cy="26" r="4" fill="#facc15" />
+    <circle cx="52" cy="26" r="4" fill="#4ade80" />
+    <text x="324" y="29" text-anchor="end" fill="#a3e635" class="font-mono" font-size="9" font-weight="700">STM32 + ESP32 · ToF</text>
+    <rect x="24" y="42" width="142" height="82" rx="8" fill="#070a13" stroke="#a3e635" stroke-opacity="0.4" />
+    <circle cx="95" cy="83" r="28" fill="none" stroke="#38bdf8" stroke-width="1.4" stroke-dasharray="4 3" />
+    <circle cx="95" cy="83" r="14" fill="none" stroke="#a3e635" stroke-width="1.4" />
+    <line x1="95" y1="83" x2="116" y2="64" stroke="#a3e635" stroke-width="2.5" />
+    <circle cx="112" cy="68" r="3.5" fill="#fb7185" />
+    <rect x="176" y="42" width="150" height="82" rx="8" fill="#070a13" stroke="#38bdf8" stroke-opacity="0.4" />
+    <rect x="190" y="54" width="66" height="40" rx="4" fill="none" stroke="#fb7185" stroke-width="1.6" stroke-dasharray="3 2" />
+    <text x="195" y="66" fill="#fb7185" class="font-mono" font-size="7.5" font-weight="700">AI DEBRIS 96%</text>
+    <text x="190" y="112" fill="#38bdf8" class="font-mono" font-size="8">PWM H-Bridge + UART</text>
+    <!-- Card Body -->
+    <text x="20" y="164" fill="#a3e635" class="font-mono" font-weight="800" font-size="10">STM32 · ESP32 · 3NF SQL · KICAD</text>
+    <text x="20" y="186" fill="#f8fafc" class="font-sans" font-weight="800" font-size="16">Dual-MCU Robotics &amp; 3NF Systems</text>
+    <text x="20" y="208" fill="#94a3b8" class="font-sans" font-size="11.5">JUNIA Lille autonomous street-cleaning robot,</text>
+    <text x="20" y="224" fill="#94a3b8" class="font-sans" font-size="11.5">40kHz ultrasonic tank controller &amp; 3NF SQL DB.</text>
+    <text x="20" y="255" fill="#a3e635" class="font-sans" font-weight="800" font-size="12">View All 6 Systems ↗</text>
+  </g>
 
-      <!-- Stylized Europe & West Africa -->
-      <path d="M 105,22 L 175,16 L 235,26 L 248,60 L 208,88 L 130,84 Z" fill="#111a2e" stroke="#6366f1" stroke-width="1.4" />
-      <path d="M 82,118 L 195,112 L 242,158 L 218,218 L 142,214 L 88,180 Z" fill="#111a2e" stroke="#06b6d4" stroke-width="1.4" />
+  <!-- Divider -->
+  <line x1="48" y1="398" x2="1152" y2="398" stroke="#1e293b" stroke-width="1.5" />
 
-      <!-- Corridor Arc -->
-      <path d="M 140,182 Q 92,115 170,54" fill="none" stroke="url(#flightStroke)" stroke-width="2.8" stroke-dasharray="6 4" />
+  <!-- ====================================================================
+       BOTTOM HALF: "ENGINEERING PROCESS I FOLLOW" 5-STEP CONNECTED FLOW
+       (Directly modeled on Pinterest Image 2 "Design Process I Follow")
+       ==================================================================== -->
+  <text x="600" y="432" text-anchor="middle" fill="#38bdf8" class="font-mono" font-weight="800" font-size="11" letter-spacing="1.8">✦ MY WORKFLOW</text>
+  <text x="600" y="460" text-anchor="middle" fill="#f8fafc" class="font-sans" font-weight="900" font-size="24">Engineering Process I Follow</text>
 
-      <!-- Animated Radar Pins -->
-      <circle cx="170" cy="54" r="6" fill="#6366f1" class="radar-pulse" />
-      <circle cx="170" cy="54" r="5.5" fill="#6366f1" stroke="#ffffff" stroke-width="1.5" />
+  <!-- Step 01 -->
+  <g transform="translate(48, 480)">
+    <rect width="204" height="104" rx="16" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.4" />
+    <text x="18" y="32" font-size="18">🔍</text>
+    <text x="184" y="32" text-anchor="end" fill="#8b5cf6" class="font-mono" font-weight="900" font-size="16">01</text>
+    <text x="18" y="58" fill="#f8fafc" class="font-sans" font-weight="800" font-size="13.5">Discover &amp; Specify</text>
+    <text x="18" y="78" fill="#94a3b8" class="font-sans" font-size="10.5">Centime &amp; real-time</text>
+    <text x="18" y="92" fill="#94a3b8" class="font-sans" font-size="10.5">latency invariants</text>
+  </g>
+  <text x="262" y="536" text-anchor="middle" fill="#38bdf8" class="font-mono" font-weight="900" font-size="16">→</text>
 
-      <circle cx="134" cy="166" r="6" fill="#06b6d4" class="radar-pulse" />
-      <circle cx="134" cy="166" r="5" fill="#06b6d4" stroke="#ffffff" stroke-width="1.5" />
+  <!-- Step 02 -->
+  <g transform="translate(272, 480)">
+    <rect width="204" height="104" rx="16" fill="#0f172a" stroke="#38bdf8" stroke-width="1.4" />
+    <text x="18" y="32" font-size="18">📐</text>
+    <text x="184" y="32" text-anchor="end" fill="#38bdf8" class="font-mono" font-weight="900" font-size="16">02</text>
+    <text x="18" y="58" fill="#f8fafc" class="font-sans" font-weight="800" font-size="13.5">3NF &amp; OOP Model</text>
+    <text x="18" y="78" fill="#94a3b8" class="font-sans" font-size="10.5">Strict 3NF ER schemas</text>
+    <text x="18" y="92" fill="#94a3b8" class="font-sans" font-size="10.5">&amp; C++ polymorphism</text>
+  </g>
+  <text x="486" y="536" text-anchor="middle" fill="#38bdf8" class="font-mono" font-weight="900" font-size="16">→</text>
 
-      <circle cx="142" cy="186" r="4.5" fill="#f59e0b" stroke="#ffffff" stroke-width="1.2" />
+  <!-- Step 03 -->
+  <g transform="translate(496, 480)">
+    <rect width="204" height="104" rx="16" fill="#0f172a" stroke="#a3e635" stroke-width="1.4" />
+    <text x="18" y="32" font-size="18">💻</text>
+    <text x="184" y="32" text-anchor="end" fill="#a3e635" class="font-mono" font-weight="900" font-size="16">03</text>
+    <text x="18" y="58" fill="#f8fafc" class="font-sans" font-weight="800" font-size="13.5">Python / C++ / MCU</text>
+    <text x="18" y="78" fill="#94a3b8" class="font-sans" font-size="10.5">Flask APIs, greedy POS,</text>
+    <text x="18" y="92" fill="#94a3b8" class="font-sans" font-size="10.5">STM32 C &amp; KiCad PCB</text>
+  </g>
+  <text x="710" y="536" text-anchor="middle" fill="#38bdf8" class="font-mono" font-weight="900" font-size="16">→</text>
 
-      <!-- 3 Academic Cards on Map Right -->
-      <g transform="translate(266, 14)">
-        <rect width="234" height="60" rx="10" fill="#0b1120" stroke="#6366f1" stroke-opacity="0.55" />
-        <text x="12" y="19" fill="#818cf8" font-family="Consolas, monospace" font-size="9.5" font-weight="700">🇫🇷 LILLE, FRANCE · 50.63°N, 3.06°E</text>
-        <text x="12" y="36" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="11.5" font-weight="700">JUNIA ISEN Lille — M1 Eng.</text>
-        <text x="12" y="51" fill="#94a3b8" font-family="Consolas, monospace" font-size="9.5">Microelectronics · GHAFRA Nord</text>
-      </g>
+  <!-- Step 04 -->
+  <g transform="translate(720, 480)">
+    <rect width="204" height="104" rx="16" fill="#0f172a" stroke="#f59e0b" stroke-width="1.4" />
+    <text x="18" y="32" font-size="18">🔬</text>
+    <text x="184" y="32" text-anchor="end" fill="#f59e0b" class="font-mono" font-weight="900" font-size="16">04</text>
+    <text x="18" y="58" fill="#f8fafc" class="font-sans" font-weight="800" font-size="13.5">Hardware &amp; Unit QA</text>
+    <text x="18" y="78" fill="#94a3b8" class="font-sans" font-size="10.5">-Wall -Wextra (0 warn)</text>
+    <text x="18" y="92" fill="#94a3b8" class="font-sans" font-size="10.5">&amp; Schmitt loop tests</text>
+  </g>
+  <text x="934" y="536" text-anchor="middle" fill="#38bdf8" class="font-mono" font-weight="900" font-size="16">→</text>
 
-      <g transform="translate(266, 84)">
-        <rect width="234" height="60" rx="10" fill="#0b1120" stroke="#06b6d4" stroke-opacity="0.55" />
-        <text x="12" y="19" fill="#38bdf8" font-family="Consolas, monospace" font-size="9.5" font-weight="700">🇬🇭 KUMASI, GHANA · 6.67°N, 1.57°W</text>
-        <text x="12" y="36" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="11.5" font-weight="700">KNUST — BSc Computer Eng.</text>
-        <text x="12" y="51" fill="#94a3b8" font-family="Consolas, monospace" font-size="9.5">ACES Department President</text>
-      </g>
-
-      <g transform="translate(266, 154)">
-        <rect width="234" height="60" rx="10" fill="#0b1120" stroke="#f59e0b" stroke-opacity="0.55" />
-        <text x="12" y="19" fill="#fbbf24" font-family="Consolas, monospace" font-size="9.5" font-weight="700">🇬🇭 ACCRA, GHANA · 5.65°N, 0.19°W</text>
-        <text x="12" y="36" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="11.5" font-weight="700">PRESEC-Legon (Odadeɛ '22)</text>
-        <text x="12" y="51" fill="#94a3b8" font-family="Consolas, monospace" font-size="9.5">General Science Foundation</text>
-      </g>
-    </g>
+  <!-- Step 05 -->
+  <g transform="translate(944, 480)">
+    <rect width="204" height="104" rx="16" fill="#0f172a" stroke="#10b981" stroke-width="1.4" />
+    <text x="18" y="32" font-size="18">🚀</text>
+    <text x="184" y="32" text-anchor="end" fill="#10b981" class="font-mono" font-weight="900" font-size="16">05</text>
+    <text x="18" y="58" fill="#f8fafc" class="font-sans" font-weight="800" font-size="13.5">Deploy &amp; Document</text>
+    <text x="18" y="78" fill="#94a3b8" class="font-sans" font-size="10.5">Live REST + Static CI</text>
+    <text x="18" y="92" fill="#94a3b8" class="font-sans" font-size="10.5">&amp; EN/FR technical docs</text>
   </g>
 </svg>
